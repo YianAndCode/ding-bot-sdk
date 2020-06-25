@@ -1,0 +1,20 @@
+{
+    "name": "yian/ding-bot-sdk",
+    "description": "A SDK for DingTalk bot develop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Y!an",
+            "email": "i@yian.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ding\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
